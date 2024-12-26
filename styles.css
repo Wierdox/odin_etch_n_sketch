@@ -1,0 +1,17 @@
+:root {
+    --percent_size: 6.25%;
+}
+span {
+    display: flex;
+    flex-wrap: wrap;
+    
+    max-width:  600px;
+    max-height: 600px;
+}
+div {
+    width:          var(--percent_size); /* square size */
+    padding-bottom: var(--percent_size); /* maintain aspect ratio */
+    box-sizing: border-box;
+    padding: 1px solid;
+    transition: background-color 0.15s;
+}
